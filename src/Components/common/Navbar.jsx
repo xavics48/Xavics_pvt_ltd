@@ -1,4 +1,3 @@
-// Navbar.jsx
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { motion } from "framer-motion";
@@ -11,27 +10,27 @@ const CustomNavbar = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <Navbar expand="lg" className="custom-navbar" fixed="top">
+      <Navbar expand="lg" className="custom-navbar" >
         <Container>
-          <Navbar.Brand href="#home" className="brand">
+          <Navbar.Brand href="/" className="brand">
             Code Inovation
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className="nav-link">
+              <Nav.Link href="/" className="nav-link">
                 Home
               </Nav.Link>
-              <Nav.Link href="#about" className="nav-link">
+              <Nav.Link href="/about" className="nav-link">
                 About
               </Nav.Link>
-              <Nav.Link href="#services" className="nav-link">
+              <Nav.Link href="/services" className="nav-link">
                 Services
               </Nav.Link>
-              <Nav.Link href="#portfolio" className="nav-link">
+              <Nav.Link href="/portfolio" className="nav-link">
                 Portfolio
               </Nav.Link>
-              <Nav.Link href="#contact" className="nav-link">
+              <Nav.Link href="/contact" className="nav-link">
                 Contact
               </Nav.Link>
             </Nav>

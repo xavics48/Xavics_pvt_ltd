@@ -1,4 +1,3 @@
-// FirstPage.jsx
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./../../assets/css/FirstPage.css";
@@ -13,7 +12,7 @@ const FirstPage = () => {
             <p className="description">
               At Code Inovation, we craft digital experiences that transform ideas into reality. Our expertise in web development, mobile solutions, and UI/UX design ensures innovation and excellence in every line of code.
             </p>
-            <Button variant="primary" size="lg" className="cta-button">
+            <Button href='href="https://wa.me/+923160854067"' variant="primary" size="lg" className="cta-button">
               Contact Us
             </Button>
           </Col>

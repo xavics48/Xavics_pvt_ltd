@@ -1,9 +1,8 @@
-/* CustomNavbar.css */
 .custom-navbar {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    background-color: #343a40;
     padding: 15px 0;
     transition: background-color 0.3s ease;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
   }
   
   .custom-navbar .brand {

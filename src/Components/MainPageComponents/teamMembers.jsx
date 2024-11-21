@@ -5,46 +5,46 @@ import "./../../assets/css/team.css";
 
 const teamMembers = [
   {
-    name: "Alice Johnson",
-    role: "Web Developer",
-    image: "./../assets/alice.jpg",
-    description: "Specializes in creating dynamic and responsive web applications.",
-  },
-  {
-    name: "Mark Stevens",
-    role: "App Developer",
-    image: "./../assets/mark.jpg",
-    description: "Expert in developing high-performance mobile apps for iOS and Android.",
-  },
-  {
-    name: "Emily Clarke",
-    role: "UI/UX Designer",
-    image: "./../assets/emily.jpg",
-    description: "Passionate about designing stunning user experiences.",
-  },
-  {
-    name: "John Doe",
+    name: "Shayan Ahmed Khan",
     role: "Project Manager",
-    image: "./../assets/john.jpg",
-    description: "Efficiently manages teams and ensures timely project delivery.",
+    image: require('./../../assets/teamImages/shayan.jpeg'),
+    description: "Efficiently manages teams and ensures timely project delivery ",
   },
   {
-    name: "Sophia Lee",
-    role: "Content Creator",
-    image: "./../assets/sophia.jpg",
-    description: "Creates engaging content for web and marketing materials.",
+    name: "Ahsan Habib",
+    role: "Full Stack Web Developer",
+    image: require('./../../assets/teamImages/Ahsan.jpeg'),
+    description: "Expert in developing high-performance websites and web apps",
   },
   {
-    name: "David Brown",
-    role: "E-Commerce Specialist",
-    image: "./../assets/david.jpg",
+    name: "Syed Tayyab",
+    role: "Full Stack Developer",
+    image: require('./../../assets/teamImages/tayab.jpeg'),
+    description: "Passionate about designing and developing web and mobile applications",
+  },
+  {
+    name: "Abdul Sami",
+    role: "Backend Developer",
+    image: require('./../../assets/teamImages/sami.jpeg'),
+    description: "Efficiently manages backend Tasks and Solve Backend quires",
+  },
+  {
+    name: "Nayyer Farooq",
+    role: "Mobile App Developer",
+    image: require('./../../assets/teamImages/nayyer.jpeg'),
+    description: "Creates engaging content for Mobile Applications",
+  },
+  {
+    name: "Muhammad Rizwan",
+    role: "UI/UX Designer",
+    image: require('./../../assets/teamImages/rizwan.jpeg'),
     description: "Skilled in optimizing e-commerce platforms for better sales.",
   },
   {
-    name: "Isabella Miller",
-    role: "QA Tester",
-    image: "./../assets/isabella.jpg",
-    description: "Ensures top-notch quality by rigorous application testing.",
+    name: "Rehan Khan",
+    role: "Full Stack Web Developer",
+    image: require('./../../assets/teamImages/rehan.jpeg'),
+    description: "Ensures top-notch quality by creating dynamic applications",
   },
 ];
 
