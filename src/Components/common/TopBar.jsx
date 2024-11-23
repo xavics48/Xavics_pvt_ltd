@@ -11,8 +11,8 @@ const TopBar = () => {
           <Col md={4} sm={12} className="topbar-info">
             <div className="topbar-item">
               <FaEnvelope className="topbar-icon" />
-              <a href="mailto:codeinovations461@gmail.com" className="topbar-link">
-                codeinovations461@gmail.com
+              <a href="mailto:xavics48@gmail.com" className="topbar-link">
+                xavics48@gmail.com
               </a>
             </div>
           </Col>

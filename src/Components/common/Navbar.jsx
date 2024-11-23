@@ -13,7 +13,7 @@ const CustomNavbar = () => {
       <Navbar expand="lg" className="custom-navbar" >
         <Container>
           <Navbar.Brand href="/" className="brand">
-            Code Inovation
+            Xavics
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -13,9 +13,9 @@ const Aboutus = () => {
   const sections = [
     {
       id: "about-code-innovation",
-      title: "About Code Innovation",
+      title: "About Xavics",
       description:
-        "At Code Innovation, we specialize in crafting cutting-edge digital solutions. From web applications to mobile apps and beyond, we are passionate about innovation and delivering excellence. Our team of expert developers and designers ensures that every project reflects creativity, quality, and functionality.",
+        "At Xavics, we specialize in crafting cutting-edge digital solutions. From web applications to mobile apps and beyond, we are passionate about innovation and delivering excellence. Our team of expert developers and designers ensures that every project reflects creativity, quality, and functionality.",
       image: image1,
       imageFirst: false,
     },

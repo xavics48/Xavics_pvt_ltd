@@ -44,7 +44,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/codeinovations/profilecard/?igsh=MWJ0ZjZ4YnBnZjloNw==" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
-              <a href="mailto:codeinovations461@gmail.com">
+              <a href="mailto:xavics48@gmail.com">
                 <FaEnvelope />
               </a>
             </div>
@@ -52,7 +52,7 @@ const Footer = () => {
         </Row>
         <Row className="footer-bottom">
           <Col className="text-center">
-            <p>&copy; {new Date().getFullYear()} Code Inovations. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Xavics. All rights reserved.</p>
           </Col>
         </Row>
       </Container>

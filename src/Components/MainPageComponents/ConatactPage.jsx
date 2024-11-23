@@ -27,7 +27,7 @@ const ContactPage = () => {
           <Button
             variant="outline-primary"
             className="contact-btn mb-3"
-            href="mailto:codeinovations461@gmail.com"
+            href="mailto:xavics48@gmail.com"
           >
             <FaEnvelope className="me-2" /> Email Me
           </Button>
