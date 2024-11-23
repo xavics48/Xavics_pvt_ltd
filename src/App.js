@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Routes,Route} from 'react-router-dom';
+import { Routes,Route} from 'react-router-dom';
 import CustomNavbar from './Components/common/Navbar';
 import MainPage from './pages/MainPage';
 import TopBar from "./Components/common/TopBar";
@@ -18,7 +18,8 @@ function App() {
            <>
               <FloatingWhatsAppButton/>
               {/*<TopBar/>*/}
-              <CustomNavbar/>
+      <CustomNavbar />
+   
               <Routes>
                   <Route path='/' element={<MainPage/>}/>
                   <Route path='/about' element={<Aboutus/>}/>
@@ -27,7 +28,8 @@ function App() {
                    <Route path='/contact' element={<ContactPage/>}/>
                   <Route path="/about-details/:id" element={<AboutDetails />} />
                    <Route path="/project-details/:id" element={<ProjectDetailsPage />} />
-              </Routes>
+        </Routes>
+    
               <Footer/>
            </>
   );
