@@ -10,10 +10,19 @@ const CustomNavbar = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <Navbar expand="lg" className="custom-navbar" >
-        <Container>
+      <Navbar
+        expand="lg"
+        className="custom-navbar"
+        style={{ height: "70px" }} // Fixed height for navbar
+      >
+        <Container className="d-flex align-items-center">
           <Navbar.Brand href="/" className="brand">
-            Xavics
+            {/* Logo only */}
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className="navbar-logo"
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -31,7 +40,7 @@ const CustomNavbar = () => {
                 Portfolio
               </Nav.Link>
               <Nav.Link href="/contact" className="nav-link">
-                Contact
+                Contact Us
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

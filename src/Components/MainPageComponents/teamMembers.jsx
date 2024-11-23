@@ -8,7 +8,7 @@ const teamMembers = [
     name: "Shayan Ahmed Khan",
     role: "Project Manager",
     image: require('./../../assets/teamImages/shayan.jpeg'),
-    description: "Efficiently manages teams and ensures timely project delivery ",
+    description: "Efficiently manages teams and ensures that deliverables are delevired on time.",
   },
   {
     name: "Ahsan Habib",

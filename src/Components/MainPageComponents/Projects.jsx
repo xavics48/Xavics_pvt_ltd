@@ -12,8 +12,8 @@ const projects = [
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    description: "A personal portfolio showcasing skills and projects.",
+    title: "Car Pulse Website",
+    description: "A professional site for car wash businesses to streamline their services .",
     image: require('./../../assets/ProjectImages/project2/image1.png'),
   },
   {
@@ -39,7 +39,7 @@ const ProjectsPage = () => {
 
   return (
     <Container className="projects-page mt-5">
-      <h1 className="text-center mb-4">My Projects</h1>
+      <h1 className="text-center mb-4">Our Projects</h1>
       <Row>
         {projects.map((project) => (
           <Col md={6} lg={4} key={project.id} className="mb-4">

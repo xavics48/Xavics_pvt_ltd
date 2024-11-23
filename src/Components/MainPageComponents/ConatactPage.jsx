@@ -8,9 +8,9 @@ const ContactPage = () => {
     <Container className="contact-page mt-5">
       <Row className="justify-content-center text-center">
         <Col md={8}>
-          <h1 className="mb-4">Contact Me</h1>
+          <h1 className="mb-4">Contact Us</h1>
           <p className="text-muted mb-5">
-            I’d love to hear from you! Feel free to reach out through the methods below or connect with me on social media.
+            We’d love to hear from you! Feel free to reach out through the methods below or connect with us on social media.
           </p>
         </Col>
       </Row>
@@ -22,14 +22,14 @@ const ContactPage = () => {
             href="https://wa.me/+923160854067"
             target="_blank"
           >
-            <FaWhatsapp className="me-2" /> WhatsApp Me
+            <FaWhatsapp className="me-2" /> WhatsApp
           </Button>
           <Button
             variant="outline-primary"
             className="contact-btn mb-3"
             href="mailto:xavics48@gmail.com"
           >
-            <FaEnvelope className="me-2" /> Email Me
+            <FaEnvelope className="me-2" /> Email
           </Button>
         </Col>
       </Row>
