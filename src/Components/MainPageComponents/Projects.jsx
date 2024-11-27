@@ -6,27 +6,40 @@ import "./../../assets/css/projects.css";
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Website",
-    description: "A modern e-commerce website with advanced features.",
+    title: "Unilancers",
+    description: "Unilancers is a freelance marketplace empowering university students to connect with clients, showcase skills, and earn while studying.",
     image: require('./../../assets/ProjectImages/project1/image1.png'),
   },
   {
     id: 2,
-    title: "Car Pulse Website",
-    description: "A professional site for car wash businesses to streamline their services .",
-    image: require('./../../assets/ProjectImages/project2/image1.png'),
+    title: "DriveUni",
+    description: `DriveUni is a bus tracking app enhancing safe, informed travel for students while
+streamlining admin and driver operations.`,
+    image: require('./../../assets/ProjectImages/project8/1.png'),
   },
   {
     id: 3,
-    title: "Mobile App",
-    description: "A cross-platform mobile application for productivity.",
+    title: "Football Academy Website",
+    description: "A responsive website for managing football programs, schedules, and player registrations, showcasing training sessions and facilities.",
     image: require('./../../assets/ProjectImages/project5/image1.png'),
   },
   {
     id: 4,
-    title: "Inventory System",
-    description: "A comprehensive inventory management system.",
-    image: require('./../../assets/ProjectImages/project4/Picture2.jpg'),
+    title: "Shift-Ease",
+    description: "Shift Ease is a user-friendly platform streamlining house shifting and property rental services by connecting users with reliable providers.",
+    image: require('./../../assets/ProjectImages/project4/Picture1.jpg'),
+  },
+  {
+    id: 5,
+    title: "Home Ease App",
+    description: "Developed an all-in-one housing app offering rentals, moving services, and home decor solutions with a seamless user experience.",
+    image: require('./../../assets/ProjectImages/project6/1.png'),
+  },
+  {
+    id: 6,
+    title: "Auth System",
+    description: "Developed a secure, scalable authentication application using Flutter and Django with email credentials and social login integrations.",
+    image: require('./../../assets/ProjectImages/project7/1.jpeg'),
   },
 ];
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import { motion } from "framer-motion";
 import "./../../assets/css/team.css";
 
@@ -7,43 +7,43 @@ const teamMembers = [
   {
     name: "Shayan Ahmed Khan",
     role: "Project Manager",
-    image: require('./../../assets/teamImages/shayan.jpeg'),
+    image: require('./../../assets/teamImages/shayan.png'),
     description: "Efficiently manages teams and ensures that deliverables are delevired on time.",
   },
   {
     name: "Ahsan Habib",
     role: "Full Stack Web Developer",
-    image: require('./../../assets/teamImages/Ahsan.jpeg'),
+    image: require('./../../assets/teamImages/ahsan.png'),
     description: "Expert in developing high-performance websites and web apps",
   },
   {
     name: "Syed Tayyab",
     role: "Full Stack Developer",
-    image: require('./../../assets/teamImages/tayab.jpeg'),
+    image: require('./../../assets/teamImages/tayyab.png'),
     description: "Passionate about designing and developing web and mobile applications",
   },
   {
     name: "Abdul Sami",
     role: "Backend Developer",
-    image: require('./../../assets/teamImages/sami.jpeg'),
+    image: require('./../../assets/teamImages/sami.png'),
     description: "Efficiently manages backend Tasks and Solve Backend quires",
   },
   {
     name: "Nayyer Farooq",
     role: "Mobile App Developer",
-    image: require('./../../assets/teamImages/nayyer.jpeg'),
+    image: require('./../../assets/teamImages/nayyer.png'),
     description: "Creates engaging content for Mobile Applications",
   },
   {
     name: "Muhammad Rizwan",
     role: "UI/UX Designer",
-    image: require('./../../assets/teamImages/rizwan.jpeg'),
+    image: require('./../../assets/teamImages/rizwan.png'),
     description: "Skilled in optimizing e-commerce platforms for better sales.",
   },
   {
     name: "Rehan Khan",
     role: "Full Stack Web Developer",
-    image: require('./../../assets/teamImages/rehan.jpeg'),
+    image: require('./../../assets/teamImages/rehan.png'),
     description: "Ensures top-notch quality by creating dynamic applications",
   },
 ];
@@ -81,12 +81,21 @@ const Team = () => {
                 transition={{ duration: 0.3 }}
               >
                 <Card className="team-card">
-                  <Card.Img
+<Image
+  src={member.image}
+  alt={member.name}
+  roundedCircle
+  width={250}
+  height={250}
+  className="mx-auto mt-3"
+  style={{ objectFit: "cover" }}
+/>
+                  {/* <Card.Img
                     variant="top"
                     src={member.image}
                     alt={member.name}
-                    className="team-image"
-                  />
+                    className="team-image rounded-circle mx-auto mt-3"
+                  /> */}
                   <Card.Body className="text-center">
                     <Card.Title className="team-name">{member.name}</Card.Title>
                     <Card.Subtitle className="team-role">
