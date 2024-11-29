@@ -61,6 +61,7 @@ const ProjectsPage = () => {
                 variant="top"
                 src={project.image}
                 className="project-image rounded-top"
+                loading="lazy"
               />
               <Card.Body className="text-center">
                 <Card.Title>{project.title}</Card.Title>

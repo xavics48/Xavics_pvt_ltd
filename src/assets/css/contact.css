@@ -3,7 +3,8 @@
   padding: 2rem 0;
   border-radius: 10px;
   margin-left: 0px;
-    margin-right: 0px;
+  margin-right: 0px;
+  margin: auto;
 }
 .contact-page .row{
   margin-left: 0!important;

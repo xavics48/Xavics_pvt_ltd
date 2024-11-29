@@ -4,6 +4,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import "./../assets/css/projectdetails.css";
 
 
+
 const formatTextWithBold = (text) => {
   return text
     .split("\n") // Split text into lines
@@ -252,6 +253,9 @@ Features:
 ];
 
 const ProjectDetailsPage = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { id } = useParams();
   const project = projects.find((p) => p.id === parseInt(id));
 
@@ -265,7 +269,7 @@ const ProjectDetailsPage = () => {
       <Row className="mb-4">
         {(project.images || []).map((image, index) => (
           <Col md={4} key={index}>
-            <Image src={image} alt={`Project ${index + 1}`} fluid className="project-detail-image" />
+            <Image src={image} alt={`Project ${index + 1}`} fluid className="project-detail-image" loading="lazy" />
           </Col>
         ))}
       </Row>

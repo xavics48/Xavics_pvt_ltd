@@ -26,7 +26,7 @@ const teamMembers = [
     name: "Abdul Sami",
     role: "Backend Developer",
     image: require('./../../assets/teamImages/sami.png'),
-    description: "Efficiently manages backend Tasks and Solve Backend quires",
+    description: "Efficiently manages backend Tasks and Solve Backend queries",
   },
   {
     name: "Nayyer Farooq",
@@ -89,6 +89,7 @@ const Team = () => {
   height={250}
   className="mx-auto mt-3"
   style={{ objectFit: "cover" }}
+  loading="lazy"
 />
                   {/* <Card.Img
                     variant="top"

@@ -8,6 +8,10 @@ import image2 from "./../../assets/images/image2.jpg";
 import image3 from "./../../assets/images/image1.jpg";
 
 const Aboutus = () => {
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const navigate = useNavigate();
 
   const sections = [
