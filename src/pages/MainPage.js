@@ -5,6 +5,7 @@ import Services from '../Components/MainPageComponents/Services';
 import Team from '../Components/MainPageComponents/teamMembers';
 import ProjectsPage from "../Components/MainPageComponents/Projects";
 import ContactPage from "../Components/MainPageComponents/ConatactPage";
+import ReviewsSection from "../Components/MainPageComponents/Review";
 export default function MainPage(){
     return(
         <>
@@ -12,6 +13,7 @@ export default function MainPage(){
            <Aboutus/>
            <Services/>
            <Team/>
+              <ReviewsSection/>
            <ProjectsPage/>
            <ContactPage/>
         </>
