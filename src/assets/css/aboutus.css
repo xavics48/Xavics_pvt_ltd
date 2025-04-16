@@ -24,14 +24,17 @@
 }
 
 .about-us-page .cta-button {
-  background-color: #007bff;
+  background: linear-gradient(to right, #fcb040, #f7941e);
+  color: white!important;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
 }
 
 .about-us-page .cta-button:hover {
-  background-color: #0056b3;
+  background: linear-gradient(to right, #f7941e, #fcb040); /* reversed gradient */
+  transform: translateY(-0.1px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .about-us-page .about-image {

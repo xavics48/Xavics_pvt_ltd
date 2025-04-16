@@ -78,7 +78,7 @@ const Aboutus = () => {
                 {section.description}
               </motion.p>
               <Button
-                variant="primary"
+                // variant="primary"
                 className="cta-button"
                 onClick={() => handleLearnMore(section.id)}
               >

@@ -8,7 +8,7 @@
 .services-title {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #0d6efd;
+  color: black;
   margin-bottom: 10px;
 }
 
@@ -32,6 +32,9 @@
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .service-title {

@@ -73,14 +73,21 @@
   font-weight: 600;
   transition: all 0.3s ease;
   border: none;
-  background: white;
-  color: #333;
+  background: linear-gradient(to right, #f7941e, #fcb040);
+  color: white!important;
+ 
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  background-color: #ffc107;
+  background: linear-gradient(to right, #fcb040, #f7941e);
+  color: #ffffe4 !important;
+  text-decoration: none;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
 }
 
 .overlay {

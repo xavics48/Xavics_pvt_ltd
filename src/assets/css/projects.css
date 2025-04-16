@@ -1,6 +1,6 @@
 .projects-page {
   background: #f8f9fa; /* Light gray background */
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
 }
 
@@ -9,6 +9,7 @@
   border: none;
   border-radius: 15px;
   overflow: hidden;
+  height: 100%;
 }
 
 .project-card:hover {
@@ -19,20 +20,25 @@
 .project-image {
   height: 200px;
   object-fit: cover;
-  border-bottom: 3px solid purple;
+  border-bottom: 3px solid #fcb040;
 }
 
 .projects-page h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: purple;
+  color: black;
 }
 
 .projects-page button {
-  background-color: #86010c;
+  background: linear-gradient(to right, #fcb040, #f7941e);
   border: none;
   transition: background-color 0.3s ease;
   color:white;
+}
+.projects-page button:hover{
+  background: linear-gradient(to right, #f7941e, #fcb040); /* reversed gradient */
+ 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .projects-page button:hover {
