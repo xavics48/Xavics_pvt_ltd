@@ -41,12 +41,12 @@ const ReviewsSection = () => {
   };
 
   return (
-    <Box as="section" px={{ base: 5, md: 20 }} textAlign="center">
+    <Box as="section" px={{ base: 5, md: 20 }} textAlign="center" bg="#f9f9f9" >
       {/* Section Tag */}
      
 
       {/* Section Heading */}
-      <Text fontSize={{ base: "2xl", md: "4xl" }} fontWeight="bold" mt={3}>
+      <Text fontSize={{ base: "2xl", md: "4xl" }} fontWeight="bold" >
         What Our Clients Say
       </Text>
       <Text maxWidth="70%" textAlign="center" mx="auto" fontSize="md" color="gray.700">
@@ -55,7 +55,7 @@ const ReviewsSection = () => {
 
 
       {/* Scrolling Container (Hover to start scrolling) */}
-      <Box mt={8} maxW="1200px" mx="auto"  overflow="hidden"  position="relative" onMouseEnter={startScroll} onMouseLeave={stopScroll}>
+      <Box mt={8} maxW="1200px"  mx="auto"  overflow="hidden"  position="relative" onMouseEnter={startScroll} onMouseLeave={stopScroll}>
         
         {/* Row 1 - Right to Left */}
         <Grid ref={row1Ref} templateColumns="repeat(12, 1fr)" templateRows="1fr" gap={6} display="grid" width="200%">
