@@ -60,36 +60,42 @@ const Aboutus = () => {
             }`}
             key={index}
           >
-            <Col md={6} className="text-center">
+            {/* Text Section */}
+            <Col md={6} >
               <motion.h2
+                className="section-title text-center"
                 initial={{ x: section.imageFirst ? 100 : -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
-                className="section-title"
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true, amount: 0.3 }}
               >
                 {section.title}
               </motion.h2>
+
               <motion.p
-                initial={{ x: section.imageFirst ? 100 : -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1, delay: 0.2 }}
                 className="section-description"
+                initial={{ x: section.imageFirst ? 100 : -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true, amount: 0.3 }}
               >
                 {section.description}
               </motion.p>
-              <Button
-                // variant="primary"
-                className="cta-button"
-                onClick={() => handleLearnMore(section.id)}
-              >
-                Learn More
-              </Button>
+              <div className="text-center">
+    <Button className="cta-button" onClick={() => handleLearnMore(section.id)}>
+      Learn More
+    </Button>
+  </div>
+           
             </Col>
-            <Col md={6} className="text-center">
+
+            {/* Image Section */}
+            <Col md={6}>
               <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
+                initial={{ scale: 0.8, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
               >
                 <Image
                   src={section.image}
