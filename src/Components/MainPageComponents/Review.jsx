@@ -71,7 +71,7 @@ const ReviewsSection = () => {
   width="300px"
   mt={2}
   sx={{
-    boxShadow: "0 0px 6px rgba(252, 176, 64, 0.5)", // yellow shadow
+    // boxShadow: "0 0px 6px rgba(252, 176, 64, 0.5)", // yellow shadow
   }}
 >
       
@@ -95,7 +95,7 @@ const ReviewsSection = () => {
         <Grid ref={row2Ref} templateColumns="repeat(12, 1fr)" templateRows="1fr" gap={6} display="grid" width="200%" mt={5}>
           {reviews.slice(6, 12).map((review, index) => ( // Changed reviewsWithRatings to reviews
             <VStack key={index} mb={2} p={6} bg="white" borderRadius="lg"  sx={{
-              boxShadow: "0 2px 6px rgba(252, 176, 64, 0.5)", // yellow shadow
+              // boxShadow: "0 2px 6px rgba(252, 176, 64, 0.5)", // yellow shadow
             }} align="start" textAlign="left" spacing={3} width="300px">
       
             {/* User Info (Image and Name at the Top) */}
