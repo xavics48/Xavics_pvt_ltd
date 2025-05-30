@@ -20,7 +20,7 @@ const ContactPage = () => {
           <Button
             variant="outline-success"
             className="contact-btn mb-3"
-            href="https://wa.me/+923160854067"
+            href="https://wa.me/+923461553264"
             target="_blank"
           >
             <FaWhatsapp className="me-2" /> WhatsApp
