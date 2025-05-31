@@ -12,6 +12,8 @@ import Services from "./Components/MainPageComponents/Services";
 import ProjectsPage from "./Components/MainPageComponents/Projects";
 import ContactPage from "./Components/MainPageComponents/ConatactPage";
 import Footer from "./Components/common/footer";
+import Terms from './Components/Legal/Terms';
+import PrivacyPolicy from './Components/Legal/Privacy';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
                    <Route path='/contact' element={<ContactPage/>}/>
                   <Route path="/about-details/:id" element={<AboutDetails />} />
                    <Route path="/project-details/:id" element={<ProjectDetailsPage />} />
+                  <Route path="/Terms" element={<Terms />} />
+                  <Route path="/Privacy" element={<PrivacyPolicy />} />
         </Routes>
     
               <Footer/>

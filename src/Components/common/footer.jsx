@@ -25,11 +25,15 @@ const Footer = () => {
                 <a href="/services">Services</a>
               </li>
               <li>
-                <a href="/portfolio">Projects</a>
-              </li>
-              <li>
                 <a href="/contact">Contact</a>
               </li>
+              <li>
+                <a href="/Privacy">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="/Terms">Terms & Conditions</a>
+              </li>
+              
             </ul>
           </Col>
           <Col md={4} className="footer-section">
