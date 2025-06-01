@@ -136,18 +136,29 @@ const Terms = () => {
         These Terms constitute the complete agreement between you and Xavics regarding Site usage, superseding all prior agreements and communications.
       </Text>
 
-      <Heading as="h2" fontSize="2xl" fontWeight="semibold" mt={6} mb={2}>
-        17. Contact
-      </Heading>
-      <Text mb={4}>
-        For inquiries regarding these Terms:
-        <br />
-        <strong>Email:</strong> <Link href="mailto:xavics48@gmail.com" color="blue.500">xavics48@gmail.com</Link>
-        <br />
-        <strong>Website:</strong> <Link href="https://xavics.com" color="blue.500" isExternal>https://xavics.com</Link>
-        <br />
-        <strong>Address:</strong> Chandni Chok, Rawalakot Azad Kashmir ,Pakistan
-      </Text>
+      <Heading as="h2" fontSize="2xl" fontWeight="semibold" mt={10} mb={3} color="blue.700">
+             Contact Information
+           </Heading>
+           <Box bg="blue.50" p={4} borderRadius="md">
+             <strong>Address:</strong> Chandni Chok, Rawalakot Azad Kashmir ,Pakistan
+             <Text mt={2}>
+               <strong>Phone:</strong> <Link href="tel:+923461553264" color="blue.500">+92 346 1553264</Link>
+             </Text>
+             <Text mt={2}>
+               <strong>Email:</strong> <Link href="mailto:xavics48@gmail.com" color="blue.500">info@xavics.com</Link>
+             </Text>
+             <Text mt={2}>
+               <strong>Support:</strong> <Link href="mailto:rehan10crkt@gmail.com" color="blue.500">support@xavics.com</Link>
+             </Text>
+             <Text mt={2}>
+               <strong>Accounts:</strong> <Link href="mailto:ahsankshmiri@gmail.com" color="blue.500">accounts@xavics.com</Link>
+             </Text>
+           </Box>
+           
+           <Text mt={4} fontSize="sm" color="gray.600">
+             Note: These terms are specific to Xavics software development services and supersedes any traditional 
+              terms that may not apply to digital service providers.
+           </Text>
     </Box>
   );
 };

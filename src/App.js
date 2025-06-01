@@ -14,6 +14,7 @@ import ContactPage from "./Components/MainPageComponents/ConatactPage";
 import Footer from "./Components/common/footer";
 import Terms from './Components/Legal/Terms';
 import PrivacyPolicy from './Components/Legal/Privacy';
+import ServiceReturnPolicy from './Components/Legal/ServiceReturnPolicy';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
                    <Route path="/project-details/:id" element={<ProjectDetailsPage />} />
                   <Route path="/Terms" element={<Terms />} />
                   <Route path="/Privacy" element={<PrivacyPolicy />} />
+                  <Route path="/ServiceReturnPolicy" element={<ServiceReturnPolicy />} />
         </Routes>
     
               <Footer/>

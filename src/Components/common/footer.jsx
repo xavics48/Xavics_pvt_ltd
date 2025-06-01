@@ -33,7 +33,9 @@ const Footer = () => {
               <li>
                 <a href="/Terms">Terms & Conditions</a>
               </li>
-              
+              <li>
+                <a href="/ServiceReturnPolicy">Service & Refund Policy</a>
+              </li>
             </ul>
           </Col>
           <Col md={4} className="footer-section">
