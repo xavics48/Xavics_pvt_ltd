@@ -57,7 +57,7 @@ const Footer = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  Chandni Chok, Rawalakot, Azad Kashmir, Pakistan
+                  Chandni Chowk, Rawalakot, Azad Kashmir, Pakistan
                 </a>
               </div>
               <div className="contact-item">
