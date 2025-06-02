@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "DriveUni",
     description: `DriveUni is a bus tracking app enhancing safe, informed travel for students while streamlining admin and driver operations.`,
-    image: require("./../../assets/ProjectImages/project8/1.png"),
+    image: require("./../../assets/ProjectImages/project8/driveuni_mockup.png"),
   },
   {
     id: 3,
