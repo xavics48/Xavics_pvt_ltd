@@ -1,6 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { 
+  FaFacebook, 
+  FaLinkedin, 
+  FaInstagram, 
+  FaTwitter, 
+  FaEnvelope, 
+  FaMapMarkerAlt, 
+  FaPhone, 
+  FaGlobe 
+} from "react-icons/fa";
 import "./../../assets/css/footer.css";
 
 const Footer = () => {
@@ -40,6 +49,30 @@ const Footer = () => {
           </Col>
           <Col md={4} className="footer-section">
             <h5 className="footer-title">Connect With Us</h5>
+            <div className="contact-info">
+              <div className="contact-item">
+                <FaMapMarkerAlt className="contact-icon" />
+                <a 
+                  href="https://maps.google.com?q=Chandni+Chok,Rawalakot,Azad+Kashmir,Pakistan" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Chandni Chok, Rawalakot, Azad Kashmir, Pakistan
+                </a>
+              </div>
+              <div className="contact-item">
+                <FaPhone className="contact-icon" />
+                <a href="tel:+923461553264">+92 346 1553264</a>
+              </div>
+              <div className="contact-item">
+                <FaEnvelope className="contact-icon" />
+                <a href="mailto:xavics48@gmail.com">xavics48@gmail.com</a>
+              </div>
+              <div className="contact-item">
+                <FaGlobe className="contact-icon" />
+                <a href="https://www.xavics.com" target="_blank" rel="noopener noreferrer">www.xavics.com</a>
+              </div>
+            </div>
             <div className="footer-social-icons">
               <a href="https://www.facebook.com/profile.php?id=61566743877885&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                 <FaFacebook />

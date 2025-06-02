@@ -35,17 +35,7 @@ const ContactPage = () => {
         </Col>
       </Row>
 
-      {/* New Office Address Section */}
-      <Row className="justify-content-center mt-4">
-        <Col md={6} className="text-center">
-          <h5 className="mb-3">Visit Our Office</h5>
-          <p className="text-muted">
-            You can also reach us at our office located in <strong>Chandni Chok, Rawalakot,Azad Kashmir ,Pakistan</strong>.
-          </p>
-        </Col>
-      </Row>
-
-      <Row className="justify-content-center mt-4">
+      {/* <Row className="justify-content-center mt-4">
         <Col md={6} lg={4} className="text-center">
           <div className="social-icons">
             <a
@@ -74,7 +64,7 @@ const ContactPage = () => {
             </a>
           </div>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 };
