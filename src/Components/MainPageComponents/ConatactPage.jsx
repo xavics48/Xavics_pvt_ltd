@@ -40,7 +40,7 @@ const ContactPage = () => {
         <Col md={6} className="text-center">
           <h5 className="mb-3">Visit Our Office</h5>
           <p className="text-muted">
-            You can also reach us at our office located in <strong>Chandni Chok, Rawalakot, Pakistan</strong>.
+            You can also reach us at our office located in <strong>Chandni Chok, Rawalakot,Azad Kashmir ,Pakistan</strong>.
           </p>
         </Col>
       </Row>

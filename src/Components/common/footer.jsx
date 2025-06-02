@@ -25,10 +25,16 @@ const Footer = () => {
                 <a href="/services">Services</a>
               </li>
               <li>
-                <a href="/portfolio">Projects</a>
+                <a href="/contact">Contact</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="/Privacy">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="/Terms">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="/ServiceReturnPolicy">Service & Refund Policy</a>
               </li>
             </ul>
           </Col>
